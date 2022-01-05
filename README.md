@@ -1,3 +1,4 @@
+![74HC595](https://user-images.githubusercontent.com/97183531/148265248-26c8f338-63d1-4467-88bc-0e8fdffdfeeb.png)
 [sn74hc595.pdf](https://github.com/grampastever/shiftout/files/7816747/sn74hc595.pdf)
 # shiftout
 interface the Rpi Pico with a 74HC595 8-bit shift register and a 4 x 7 segment display
