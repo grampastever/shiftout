@@ -26,6 +26,7 @@ def shiftOut(dataPin, clockPin, latchPin, bitOrder, val):
     latch = machine.Pin(latchPin, machine.Pin.OUT, value=0)
     
     #bit map of digital number to 7-seg display pinout where the bit order is 'abcdefgh'
+    #which also maps to the output pins of the 74HC595 as 'QaQbQcQdQeQfQgQh'
     bit_map = ['11111100', '01100000', '11011010', '11110010', '01100110',
                '10110110', '00111110', '11100000', '11111110', '11100110']
     
